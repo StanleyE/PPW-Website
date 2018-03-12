@@ -1,0 +1,109 @@
+
+body {
+    padding: 3px;
+    font-family: 'Exo 2', sans-serif;    
+}
+
+body h2 {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+header {
+    border: 3px black solid;
+    background-image: url(photoWeld2.jpg);
+    height: 800px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title{
+    color:deeppink;
+    background: transparent;
+    padding: 50px;
+    padding-top: 7em;
+    text-align: left;
+    width: 500px;
+}
+
+.title h1 {
+    text-shadow: 2px 3px 4px silver;
+    font-size: 5rem;
+}
+
+.title h3 {
+    color: rgb(255, 230, 243);
+    line-height: 1.5em;
+}
+
+.name {
+    background-color: rgb(255, 230, 243);
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    height: auto;
+    padding: 2em;
+    overflow: auto;
+}
+
+.name2 p {
+    line-height: 2.5em;
+}
+
+.Daug {
+    height: 250px;
+    width: 250px;
+    border-radius: 49%;
+    float: right;
+    margin: 15px;
+}
+
+.typeWork {
+    align-content: center;
+    padding: 2em;
+}
+
+.type {
+    display: inline-flex;
+}
+.card {
+    margin: 25px;
+    background-color: rgb(255, 230, 243);
+}
+
+.card-img-top {
+    height: 18em;
+    width: 18em;
+}
+
+.past {
+    margin:auto;
+    padding: 3em;
+    background-color: rgb(255, 230, 243);
+    text-align-last: center;
+}
+
+
+.block {
+    height: 500px;
+    width: auto;
+    align-self: center;
+}
+
+footer {
+    color: hotpink;
+    height: 280px;
+    background-color: black;
+    text-align: center;
+    padding: 2em;
+    line-height: 5em;
+}
+
+footer a:link{
+    color: white;
+}
+
+footer a:hover{
+    color: silver;
+}
